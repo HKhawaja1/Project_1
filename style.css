@@ -1,17 +1,16 @@
 body {
-    background-color: grey;
+    background-color: white;
     margin: 0;
     font-family: Arial, sans-serif;
+}
+
+h2 {
+    font-size: 28px;
 }
 
 .banner {
     background-color: white;
     height: 150px;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
 }
 
 .secondbanner {
@@ -23,6 +22,24 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-banner {
+    background-image: url('assets/Cover.jpg');
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
 }
 
 .navigation {
@@ -49,14 +66,36 @@ body {
     color: green;
 }
 
-#myContact {
+.myHeader {
+    margin-bottom: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: auto;
     font-family: Tahoma, sans-serif;
     font-size: 50px;
     color: white;
+    text-align: center;
+}
+
+.hero-text {
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.join-button {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.join-button:hover {
+    background-color: darkgreen;
 }
 
 .grid-container {
@@ -120,4 +159,194 @@ body {
 
 #myeventContent {
     padding-top: 115px;
+}
+
+.firsthomeContainer {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px 20px;
+    padding-top: 175px;
+    padding-bottom: 175px;
+}
+
+.welcome-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.welcome-image {
+    width: 700px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.welcome-text hr {
+    border: 1px solid green;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.welcome-text {
+    text-align: left;
+    margin-top: 0;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.welcome-text h2 {
+    font-size: 28px;
+    margin-top: 0;
+}
+
+.welcome-text p, .welcome-text ul {
+    margin-top: 10px;
+}
+
+.welcome-text ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.welcome-text ul li {
+    margin-bottom: 5px;
+}
+
+.secondhomeContainer {
+    background-color: #f4f4f5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px 20px;
+    padding-top: 175px;
+    padding-bottom: 175px;
+}
+
+.secondhomeContainer .welcome-content {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.secondhomeContainer .welcome-image {
+    width: 700px;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.secondhomeContainer .welcome-text {
+    text-align: left;
+    margin-top: 0;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondhomeContainer .welcome-text h2 {
+    font-size: 28px;
+    margin-top: 0;
+}
+
+.secondhomeContainer .welcome-text p, .secondhomeContainer .welcome-text ul {
+    margin-top: 10px;
+}
+
+.secondhomeContainer .welcome-text ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.secondhomeContainer .welcome-text ul li {
+    margin-bottom: 5px;
+}
+
+.thirdhomeContainer {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+.thirdhomeContainer div {
+    text-align: center;
+}
+
+.thirdhomeContainer img {
+    width: 500px;
+    height: auto;
+}
+
+.thirdhomeContainer p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: black;
+}
+
+.green-text {
+    color: green;
+    font-size: 14px;
+}
+
+.center-heading {
+    text-align: center;
+    margin-top: 100px;
+}
+
+hr  {
+    border: 1px solid green;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.fourthhomeContainer {
+    background-color: #f4f4f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 20px;
+    padding-bottom: 100px;
+}
+
+.fourthhomeContainer h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 75px;
+}
+
+.fourthhomeContainer hr {
+    border: 1px solid green;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.testimonial {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.testimonial blockquote {
+    font-style: italic;
+}
+
+.testimonial p {
+    margin: 10px 0;
+}
+
+.testimonial strong {
+    display: block;
+}
+
+.myClub {
+    color:green;
+    font-size: 14px;
 }
