@@ -253,7 +253,7 @@ h2 {
 }
 
 .secondhomeContainer .welcome-text p, .secondhomeContainer .welcome-text ul {
-    margin-top: 10px;
+    margin-top:  10px;
 }
 
 .secondhomeContainer .welcome-text ul {
@@ -546,7 +546,7 @@ button:hover {
 .subscribe h2 {
     font-size: 28px;
     margin-bottom: 10px;
-    COLOR: white;
+    color: white;
 }
 
 .subscribe p {
@@ -673,4 +673,47 @@ a {
 
 .eventContent {
     margin-bottom: 40px;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-image {
+    width: 300px;
+    margin: 10px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    .navigation {
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    #myLogo {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .contact-form {
+        width: 80%;
+        margin: 50px auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .navigation {
+        margin-right: 10px;
+        margin-top: 10px;
+        gap: 50px;
+    }
+    #myLogo {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .contact-form {
+        width: 100%;
+        margin: 30px auto;
+    }
 }
