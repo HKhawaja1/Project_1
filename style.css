@@ -460,3 +460,217 @@ button:hover {
 .myPricing {
     color: green;
 }
+
+.sixthhomeContainer {
+    background-color: #181c14;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 50px 20px;
+    padding-bottom: 100px;
+}
+
+.latest-news {
+    text-align: center;
+    color: white;
+    margin-right: 50px;
+}
+
+.latest-news-heading {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.latest-news-list {
+    list-style: none;
+    padding: 0;
+}
+
+.latest-news-list li {
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    text-align: center;
+    color: white;
+}
+
+.contact-heading {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.follow-us {
+    text-align: center;
+    color: white;
+    margin-right: 50px;
+}
+
+.follow-us p {
+    margin-bottom: 10px;
+    color: #707070;
+}
+
+.latest-news {
+    text-align: center;
+    color: green;
+    margin-right: 50px;
+}
+
+.latest-news-list li {
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    text-align: center;
+    color: #707070;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.subscribe {
+    text-align: center;
+    color: #707070;
+    margin-left: 50px;
+}
+
+.subscribe h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    COLOR: white;
+}
+
+.subscribe p {
+    margin-bottom: 20px;
+}
+
+.subscribe-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.subscribe-button {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.subscribe-button:hover {
+    background-color: darkgreen;
+}
+
+.subscribe-form input[type="email"],
+.subscribe-button {
+    width: calc(100% - 22px);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.subscribe-button {
+    width: 100%;
+}
+
+.seventhhomeContainer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.seventhhomeContainer p {
+    color: #707070;
+    text-align: center;
+}
+
+.thirdhomeContainer a {
+    color: black;
+    text-decoration: none;
+}
+
+.sixthhomeContainer a {
+    color: green;
+    text-decoration: none;
+}
+
+.thirdhomeContainer a:hover,
+.sixthhomeContainer a:hover {
+    text-decoration: underline;
+}
+
+.thirdhomeContainer a {
+    color: black;
+    text-decoration: none;
+}
+
+.sixthhomeContainer a {
+    color: green;
+    text-decoration: none;
+}
+
+.sixthhomeContainer .follow-us a {
+    color: #707070;
+    text-decoration: none;
+}
+
+.thirdhomeContainer a:hover,
+.sixthhomeContainer a:hover,
+.sixthhomeContainer .follow-us a:hover {
+    text-decoration: underline;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.thirdhomeContainer a {
+    color: black;
+}
+
+.sixthhomeContainer .latest-news a {
+    color: green;
+}
+
+.sixthhomeContainer .follow-us a,
+.sixthhomeContainer .contact-info a {
+    color: #707070;
+}
+
+.mySalthill {
+    color: green;
+}
+
+#lastEvent {
+    margin-bottom: 125px;
+}
+
+.event-date {
+    font-size: 14px;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.eventContent {
+    margin-bottom: 40px;
+}
