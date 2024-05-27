@@ -398,3 +398,65 @@ button {
 button:hover {
     background-color: darkgreen;
 }
+
+.fifthhomeContainer {
+    background-image: url('assets/Home_Photo_6.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 20px;
+    padding-bottom: 100px;
+}
+
+.fifthhomeContainer h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 75px;
+}
+
+.membership-table {
+    border-collapse: collapse;
+    width: 80%;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.membership-table td {
+    border: 1px solid #ddd;
+    padding: 70px;
+}
+
+.membership-table h3 {
+    margin-top: 20px;
+}
+
+.order-button {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.order-button:hover {
+    background-color: darkgreen;
+}
+
+.myMembership {
+    color: white;
+    margin-bottom:20px;
+}
+
+.myPricing {
+    color: green;
+}
